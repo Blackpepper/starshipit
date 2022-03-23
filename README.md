@@ -9,7 +9,7 @@ The recommended way to install is via [Composer](http://getcomposer.org).
 
 
 ```bash
-composer require james-azzopardi/starshipit dev-master
+composer require blackpepper/starshipit dev-master
 ```
 
 Don't forget to include Composer's auto-loader if you haven't already:
