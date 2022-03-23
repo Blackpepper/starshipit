@@ -1,5 +1,5 @@
 {
-    "name": "james-azzopardi/starshipit",
+    "name": "blackpepper/starshipit",
     "description": "Integrate easily with the starshipit.com API",
     "keywords": ["starshipit", "shipping", "shopping"],
     "type": "library",
