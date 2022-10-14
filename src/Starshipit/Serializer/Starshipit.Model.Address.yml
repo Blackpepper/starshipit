@@ -15,6 +15,8 @@ Starshipit\Model\Address:
       type: string
     suburb:
       type: string
+    city:
+      type: string
     state:
       type: string
     post_code:

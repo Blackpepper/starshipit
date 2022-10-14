@@ -47,6 +47,11 @@ class Address
     /**
      * @var string
      */
+    protected $city;
+
+    /**
+     * @var string
+     */
     protected $state;
 
     /**
@@ -188,12 +193,31 @@ class Address
     }
 
     /**
+     * @return string
+     */
+    public function getCity()
+    {
+        return $this->city;
+    }
+
+    /**
      * @param string $Suburb
      * @return $this
      */
     public function setSuburb($suburb)
     {
         $this->suburb = $suburb;
+
+        return $this;
+    }
+
+    /**
+     * @param string $City
+     * @return $this
+     */
+    public function setCity($city)
+    {
+        $this->city = $city;
 
         return $this;
     }
