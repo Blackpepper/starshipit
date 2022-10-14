@@ -20,6 +20,7 @@
                   ->setPhone('0412456789')
                   ->setStreet('1 Test Address')
                   ->setSuburb('Suburb')
+                  ->setCity('City')
                   ->setState('VIC')
                   ->setPostcode('3000')
                   ->setCountry('Australia')

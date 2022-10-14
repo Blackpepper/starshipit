@@ -21,6 +21,7 @@
                   ->setEmail('test@email.com.au')
                   ->setStreet('1 Test Address')
                   ->setSuburb('Suburb')
+                  ->setCity('City')
                   ->setState('VIC')
                   ->setPostcode('3000')
                   ->setCountry('Australia')
